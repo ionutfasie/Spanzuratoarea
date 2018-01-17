@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Spanzuratoarea simpla</title>
+	<link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body id="body1">
+
+    <h1>Spanzuratoarea<br> Jocul tau preferat!</h1>
+	<p id="spaces"></p>
+	<form name="wordformular" >
+		<input name="element" type="text" size="5" maxlength="1">
+		<input name="submitbutton" type="button" value="Ghiceste" onClick="checkGuess()"  style="font-face: 'Comic Sans MS'; font-size: medium; color: teal; background-color: #FFFFC0;border-radius: 8px; border: 3pt ridge lightgrey">
+
+		<p id="wrongletter">Litere gresite:</p>
+		<img src="images/hangman0.png" id="hangman"><br />
+		<input name="refresh" type="button" value="Joc nou" onClick="location.reload()"style="font-face: 'Comic Sans MS'; font-size: medium; color: teal; background-color: #FFFFC0;border-radius: 8px; border: 3pt ridge lightgrey">
+	</form>
+
+			<script src="js/index.js"></script>
+
+  </body>
+</html>

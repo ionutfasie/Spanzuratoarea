@@ -1,0 +1,74 @@
+#body1 {
+	background-image: url('images/paper.jpg');
+	text-align: center;
+	font-family: Arial;
+	color: #387f60 ;
+}
+input {
+	border: 5px solid #999;
+	font-family: Arial;
+	font-size: 25px;
+	color: red; 
+}
+
+#spaces {
+	font-family: Arial;
+	font-size: 3.0em;
+	color: #387f60 ;
+}
+
+h1 {
+	font-family: Arial;
+	color: #387f60 ;
+	font-size: 50px;
+	margin:0;
+}
+
+#hangman {
+	border-radius: 9%;
+}
+
+ /* Bordered form */
+form {
+    border: 0px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+#login {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+	margin-left:25%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+	margin-left:25%;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+	margin-top:20%;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+} 
